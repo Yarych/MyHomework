@@ -1,0 +1,455 @@
+body{
+    background: #bfbfbf;
+    align-content: center;
+    margin: auto;
+    box-shadow: ;
+}
+
+.main{
+   background: white;
+    width: 1000px;
+    height: 1280px;
+    border-radius: 3px/2px 2px 3px 3px;
+    margin: auto;
+}
+
+header{
+    width: 910px;
+    margin: auto;
+}
+
+header>p{
+    width: 300px;
+    float: left;
+}
+
+header .user .form{
+    width: 495px;
+    height: 26px;
+    background-image: linear-gradient(to top, #0d3458, #1f6787);
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+    
+}
+
+header .user .form li{
+    float: left;
+    margin-left: 10px;
+}
+
+header .user .form li a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    margin-top: 2px;
+}
+
+header .user .form img{
+    float: left;
+    margin: -20px 0px 0px 510px;
+}
+
+nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header .hmenu {
+    position: relative;
+    overflow: hidden;
+    width: 910px;
+    height: 36px;
+    background: url(../img/menubg1.jpg) no-repeat;
+    margin:3px 4px 160px 0px;
+    border-radius: 6px;
+    float: left;
+    
+}
+
+header .hmenu li {
+    float: left;
+}
+
+header .hmenu li a {
+    display: block;
+    height: 24px;
+    text-align: center;
+    line-height: 26px;
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+    color: white;
+    margin-top: 7px;
+    margin-right: 25px;
+}
+
+
+header .hmenu li a.active, .hmenu li a:hover {
+    border-radius: 12px;
+    background-image: linear-gradient(top, #206988, #114165, #0c3256);
+	background-image: linear-gradient(to bottom, #206988, #114165, #0c3256);
+    
+}
+
+header .hmenu li span{
+    color: darkblue;
+}
+
+.main .left{
+    float: left;
+    width: 190px;
+    height: 621px;
+    padding-left: 47px;
+    
+}
+
+.main .left .katalog{
+    width: 170px;
+    height: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+    margin-bottom: 20px;
+    padding: 2px 0px 2px 10px;
+    box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+}
+
+.main .left .katalog img{
+    margin: 0px -15px -6px 0px;
+}
+
+.main .left .katalog i{
+    margin-right: 6px;
+    color: white;
+}
+
+.main .left .tire{
+    width: 170px;
+    height: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+    padding: 2px 0px 2px 10px;
+    box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+    margin-bottom: 105px;
+}
+
+.main .left .tire img{
+    margin: 0px -15px -6px 0px;
+}
+
+.main .left .tire i{
+    margin-right: 6px;
+    color: white;
+}
+
+.main .left .tire li{
+    margin: 10px 0px 0px 10px;
+}
+
+.main .left .tire li i{
+    color: #1f6787;
+}
+
+.main .left .tire li a{
+    text-decoration: none;
+}
+
+.main .left .tire li a.active, .main .left .tire li a:hover {
+    color: #4792af; 
+    
+}
+
+
+.main .left .disc{
+    width: 170px;
+    height: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+    margin-bottom: 105px;
+    padding: 2px 0px 2px 10px;
+    box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+}
+
+.main .left .disc img{
+    margin: 0px -15px -6px 0px;
+}
+
+.main .left .disc i{
+    margin-right: 6px;
+    color: white;
+}
+
+.main .left .disc li{
+    margin: 10px 0px 0px 10px;
+}
+
+.main .left .disc li i{
+    color: #1f6787;
+}
+
+.main .left .disc li a{
+    text-decoration: none;
+}
+
+.main .left .disc li a.active, .main .left .disc li a:hover {
+    color: #4792af; 
+    
+}
+
+.main .left .bolt{
+    width: 170px;
+    height: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+    margin-bottom: 20px;
+    padding: 2px 0px 2px 10px;
+    box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+}
+
+.main .left .bolt img{
+    margin: 0px -15px -6px 0px;
+}
+
+.main .left .bolt i{
+    margin-right: 6px;
+    color: white;
+}
+
+.main .left .bolt li{
+    margin: 10px 0px 0px 10px;
+}
+
+.main .left .bolt li i{
+    color: #1f6787;
+}
+
+.main .left .bolt li a{
+    text-decoration: none;
+}
+
+.main .left .bolt li a.active, .main .left .bolt li a:hover {
+    color: #4792af; 
+    
+}
+
+.main .center{
+    float: left;
+    width: 526px;
+    height: 621px;
+    background: linear-gradient(to bottom, #e4e7e8, #93a7b0);
+    border-radius: 5px;
+}
+
+.center>article>p{
+    width: 136px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: "Lucida Sans Unicode";
+    font-size: 14px;
+	color: #1f2528;
+    float: left;
+}
+
+.center>article>p.two{
+    margin-left: 33px;
+}
+
+.center>article>p.three{
+    margin-left: 30px;
+}
+
+.center>article>p>span{
+    font-size: 16px;
+	color: #206988;
+}
+
+figure {
+    padding: 0px; /* Поля вокруг */
+    display: block; /* Блочній элемент */
+    width: 136px;
+    height: 125px;
+    float: left; /* Блоки вістраиваются по горизонтали */
+    text-align: center; /* Віравнивание по центру */
+    border-radius: 7px;
+    background-color: #fff;
+	border: solid 1px #a4aeb1;
+    margin: 2px 5px 28px 23px;
+   }
+   figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Arial;
+	font-weight: bold;
+	font-style: italic;
+	color: #114165;
+   }
+
+.main .right{
+    float: left;
+    width: 210px;
+    height: 621px;
+    margin-left: 15px;
+}
+
+.main .right .brand{
+    width: 170px;
+    height: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+    margin-bottom: 20px;
+    padding: 2px 0px 2px 10px;
+    box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+}
+
+.main .right .brand img{
+    margin: 0px -15px -6px 0px;
+}
+
+.main .right .brand i{
+    margin-right: 6px;
+    color: white;
+}
+
+.main .right .tire{
+    width: 170px;
+    height: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+    padding: 2px 0px 2px 10px;
+    box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+    margin-bottom: 115px;
+}
+
+.main .right .tire img{
+    margin: 0px -15px -6px 0px;
+}
+
+.main .right .tire i{
+    margin-right: 6px;
+    color: white;
+}
+
+.main .right .tire li{
+    margin: 10px 0px 0px 10px;
+}
+
+.main .right .tire li i{
+    color: #1f6787;
+}
+
+.main .right .tire li a{
+    text-decoration: none;
+}
+
+.main .right .tire li a.active, .main .right .tire li a:hover {
+    color: #4792af; 
+    
+}
+
+
+.main .right .disc{
+    width: 170px;
+    height: 20px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    font-family: "Lucida Sans Unicode";
+	font-size: 14px;
+    margin-bottom: 105px;
+    padding: 2px 0px 2px 10px;
+    box-shadow: 2px 3px 3px rgba(150,150,150,.75);
+}
+
+.main .right .disc img{
+    margin: 0px -15px -6px 0px;
+}
+
+.main .right .disc i{
+    margin-right: 6px;
+    color: white;
+}
+
+.main .right .disc li{
+    margin: 10px 0px 0px 10px;
+}
+
+.main .right .disc li i{
+    color: #1f6787;
+}
+
+.main .right .disc li a{
+    text-decoration: none;
+}
+
+.main .right .disc li a.active, .main .right .disc li a:hover {
+    color: #4792af; 
+    
+}
+
+
+
+
+
+
+.brandlogo{
+    width: 1000px;
+    height: 60px;
+    position: relative;
+    float: left;
+    margin: 22px 0px 0px 156px;
+}
+
+.footer{
+    width: 910px;
+	height: 100px;
+	background-color: #21394c;
+	border: solid 1px #242a3c;
+    margin: auto;
+    margin-top: 910px;
+}
+
+.fmenu>ul{
+    width: 350px;
+    height: 25px;
+    margin-top: 2px;
+    margin-left: 307px;
+}
+
+.fmenu li {
+    float: left;
+}
+
+.fmenu li a {
+    display: block;
+    height: 14px;
+    text-align: center;
+    line-height: 26px;
+    text-decoration: none;
+    color: #bec6c9;
+    margin-top: 2px;
+    margin-right: 19px;
+    margin-left: 2px;
+    font-family: Arial;
+	font-size: 11px;
+}
+
+.fmenu li a.active, .fmenu li a:hover {
+    color: #4792af; 
+    
+}
+
+
